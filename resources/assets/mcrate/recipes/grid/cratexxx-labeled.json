@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "ingredientPattern": "S,C",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment" },
+    "C": { "type": "block", "code": "crate2x1-east" }
+  },
+  "shapeless": true,
+  "copyAttributesFrom": "C",
+  "recipeGroup": 3,
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "crate2x1-east", "attributes": { "label": "paper-empty" } }
+}

@@ -1,0 +1,12 @@
+{
+  "ingredientPattern": "TC",
+  "ingredients": {
+    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+    "C": { "type": "block", "code": "crate2x2x2-east" }
+  },
+  "copyAttributesFrom": "C",
+  "recipeGroup": 2,
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "game:crate", "attributes": { "lidState": "closed" }, "quantity": 8 }
+}

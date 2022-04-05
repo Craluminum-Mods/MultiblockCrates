@@ -1,0 +1,42 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"bituminouscoal": "item/resource/ungraded/bituminouscoal"
+	},
+	"elements": [
+		{
+			"name": "Face",
+			"from": [ 2.0, 0.56, 1.0 ], 
+			"to": [ 14.0, 1.56, 14.0 ], 
+			"rotationOrigin": [ 2.0, 0.6, 2.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#bituminouscoal", "uv": [ 0.0, 0.0, 12.0, 13.0 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 13.0 ], "enabled": false }
+			}
+		},
+		{
+			"name": "Face2",
+			"from": [ 2.0, 0.56, -12.0 ], 
+			"to": [ 14.0, 1.56, 1.0 ], 
+			"rotationOrigin": [ 2.0, 0.6, -11.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 1.0 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 1.0 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 1.0 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 13.0, 1.0 ], "enabled": false },
+				"up": { "texture": "#bituminouscoal", "uv": [ 0.0, 0.0, 12.0, 13.0 ], "rotation": 180 },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 12.0, 13.0 ], "enabled": false }
+			}
+		}
+	]}
