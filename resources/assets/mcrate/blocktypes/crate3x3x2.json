@@ -63,36 +63,28 @@
       "wood-aged": {
         "quantitySlots": 288,
         "rotatatableInterval": "22.5degnot45deg",
-        "shape": {
-          "base": "mcrate:block/wood/crate/3x3x2/normal-closed"
-        }
+        "shape": { "base": "mcrate:block/wood/crate/3x3x2/normal-closed" }
       },
       "wood-ebony": {
         "quantitySlots": 450,
         "rotatatableInterval": "22.5degnot45deg",
         "storageType": 189,
         "retrieveOnly": false,
-        "shape": {
-          "base": "mcrate:block/wood/crate/3x3x2/normal-closed"
-        }
+        "shape": { "base": "mcrate:block/wood/crate/3x3x2/normal-closed" }
       },
       "wood-purpleheart": {
         "quantitySlots": 450,
         "rotatatableInterval": "22.5degnot45deg",
         "storageType": 189,
         "retrieveOnly": false,
-        "shape": {
-          "base": "mcrate:block/wood/crate/3x3x2/normal-closed"
-        }
+        "shape": { "base": "mcrate:block/wood/crate/3x3x2/normal-closed" }
       },
       "*": {
         "quantitySlots": 360,
         "rotatatableInterval": "22.5degnot45deg",
         "storageType": 189,
         "retrieveOnly": false,
-        "shape": {
-          "base": "mcrate:block/wood/crate/3x3x2/normal-closed"
-        }
+        "shape": { "base": "mcrate:block/wood/crate/3x3x2/normal-closed" }
       }
     }
   },
@@ -143,13 +135,7 @@
   },
   "heldTpIdleAnimation": "holdunderarm",
   "shapeInventory": { "base": "block/wood/crate/3x3x2/normal-closed", "rotateY": 180 },
-  "shape": {
-    "base": "block/wood/crate/3x3x2/normal-closed",
-    "rotateYByType": {
-      "*-east": 90,
-      "*-west": -90
-    }
-  },
+  "shape": { "base": "block/wood/crate/3x3x2/normal-closed", "rotateYByType": { "*-east": 90, "*-west": -90 } },
   "textures": {
     "label-building": { "base": "game:block/wood/crate/label-building" },
     "label-decoration": { "base": "game:block/wood/crate/label-decoration" },
