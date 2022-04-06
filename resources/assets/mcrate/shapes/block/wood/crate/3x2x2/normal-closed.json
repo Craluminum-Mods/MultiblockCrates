@@ -761,16 +761,16 @@
 						},
 						{
 							"name": "Cube12",
-							"from": [ -1.5, 0.0, -0.5 ], 
+							"from": [ -1.0, 0.0, -0.5 ], 
 							"to": [ 14.0, 2.0, 0.0 ], 
-							"rotationOrigin": [ -1.5, 0.0, -0.5 ],
+							"rotationOrigin": [ -1.0, 0.0, -0.5 ],
 							"faces": {
-								"north": { "texture": "#frame-generic", "uv": [ 0.5, 1.5, 16.0, 3.5 ] },
+								"north": { "texture": "#frame-generic", "uv": [ 0.5, 1.0, 15.5, 3.0 ] },
 								"east": { "texture": "#frame-generic", "uv": [ 1.0, 1.0, 1.5, 3.0 ] },
-								"south": { "texture": "#frame-generic", "uv": [ 0.0, 1.5, 15.5, 3.5 ] },
+								"south": { "texture": "#frame-generic", "uv": [ 1.0, 3.5, 16.0, 5.5 ] },
 								"west": { "texture": "#frame-generic", "uv": [ 1.5, 1.5, 2.0, 3.5 ] },
-								"up": { "texture": "#frame-generic", "uv": [ 0.5, 0.5, 16.0, 1.0 ] },
-								"down": { "texture": "#frame-generic", "uv": [ 0.5, 2.5, 16.0, 3.0 ] }
+								"up": { "texture": "#frame-generic", "uv": [ 0.5, 1.5, 15.5, 2.0 ] },
+								"down": { "texture": "#frame-generic", "uv": [ 0.5, 3.0, 15.5, 3.5 ] }
 							}
 						},
 						{
@@ -804,15 +804,15 @@
 								{
 									"name": "Cube56",
 									"from": [ 0.0, 0.0, -0.5 ], 
-									"to": [ 15.5, 2.0, 0.0 ], 
+									"to": [ 15.0, 2.0, 0.0 ], 
 									"rotationOrigin": [ 0.0, 0.0, -0.5 ],
 									"faces": {
-										"north": { "texture": "#frame-generic", "uv": [ 0.5, 1.5, 16.0, 3.5 ] },
+										"north": { "texture": "#frame-generic", "uv": [ 0.5, 1.5, 15.5, 3.5 ] },
 										"east": { "texture": "#frame-generic", "uv": [ 1.0, 1.0, 1.5, 3.0 ] },
-										"south": { "texture": "#frame-generic", "uv": [ 0.0, 1.5, 15.5, 3.5 ] },
+										"south": { "texture": "#frame-generic", "uv": [ 0.0, 1.5, 15.0, 3.5 ] },
 										"west": { "texture": "#frame-generic", "uv": [ 1.5, 1.5, 2.0, 3.5 ] },
-										"up": { "texture": "#frame-generic", "uv": [ 0.5, 0.5, 16.0, 1.0 ] },
-										"down": { "texture": "#frame-generic", "uv": [ 0.5, 2.5, 16.0, 3.0 ] }
+										"up": { "texture": "#frame-generic", "uv": [ 0.5, 0.5, 15.5, 1.0 ] },
+										"down": { "texture": "#frame-generic", "uv": [ 0.5, 2.5, 15.5, 3.0 ] }
 									}
 								}
 							]
@@ -834,15 +834,15 @@
 								{
 									"name": "Cube89",
 									"from": [ -1.0, 14.0, -0.5 ], 
-									"to": [ 13.0, 16.0, 0.0 ], 
+									"to": [ 14.0, 16.0, 0.0 ], 
 									"rotationOrigin": [ -1.0, 14.0, -0.5 ],
 									"faces": {
-										"north": { "texture": "#frame-generic", "uv": [ 0.5, 2.0, 14.5, 4.0 ] },
+										"north": { "texture": "#frame-generic", "uv": [ 0.5, 4.0, 15.5, 6.0 ] },
 										"east": { "texture": "#frame-generic", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
-										"south": { "texture": "#frame-generic", "uv": [ 1.5, 2.5, 15.5, 4.5 ] },
+										"south": { "texture": "#frame-generic", "uv": [ 0.5, 1.0, 15.5, 3.0 ] },
 										"west": { "texture": "#frame-generic", "uv": [ 2.0, 1.0, 2.5, 3.0 ] },
-										"up": { "texture": "#frame-generic", "uv": [ 1.5, 0.5, 15.5, 1.0 ] },
-										"down": { "texture": "#frame-generic", "uv": [ 0.0, 3.0, 14.0, 3.5 ] }
+										"up": { "texture": "#frame-generic", "uv": [ 1.0, 2.5, 16.0, 3.0 ] },
+										"down": { "texture": "#frame-generic", "uv": [ 0.0, 2.5, 15.0, 3.0 ] }
 									}
 								},
 								{
@@ -875,16 +875,16 @@
 									"children": [
 										{
 											"name": "Cube92",
-											"from": [ -1.0, 14.0, -0.5 ], 
-											"to": [ 13.0, 16.0, 0.0 ], 
-											"rotationOrigin": [ -1.0, 14.0, -0.5 ],
+											"from": [ 0.0, 14.0, -0.5 ], 
+											"to": [ 15.0, 16.0, 0.0 ], 
+											"rotationOrigin": [ 0.0, 14.0, -0.5 ],
 											"faces": {
-												"north": { "texture": "#frame-generic", "uv": [ 0.5, 2.0, 14.5, 4.0 ] },
+												"north": { "texture": "#frame-generic", "uv": [ 0.5, 2.0, 15.5, 4.0 ] },
 												"east": { "texture": "#frame-generic", "uv": [ 0.0, 0.0, 0.5, 2.0 ] },
-												"south": { "texture": "#frame-generic", "uv": [ 1.5, 2.5, 15.5, 4.5 ] },
+												"south": { "texture": "#frame-generic", "uv": [ 0.5, 2.5, 15.5, 4.5 ] },
 												"west": { "texture": "#frame-generic", "uv": [ 2.0, 1.0, 2.5, 3.0 ] },
-												"up": { "texture": "#frame-generic", "uv": [ 1.5, 0.5, 15.5, 1.0 ] },
-												"down": { "texture": "#frame-generic", "uv": [ 0.0, 3.0, 14.0, 3.5 ] }
+												"up": { "texture": "#frame-generic", "uv": [ 0.5, 0.5, 15.5, 1.0 ] },
+												"down": { "texture": "#frame-generic", "uv": [ 0.0, 3.0, 15.0, 3.5 ] }
 											}
 										},
 										{
