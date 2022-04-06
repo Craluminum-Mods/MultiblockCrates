@@ -112,33 +112,35 @@
   ],
   "variantgroups": [{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
   "creativeinventory": {},
-  "creativeinventoryStacks": [
-    {
-      "tabs": ["general", "decorative"],
-      "stacks": [
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-building" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-decoration" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-defense" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-ingredients" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-storage" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-tools" } },
+  "creativeinventoryStacksByType": {
+    "*-east": [
+      {
+        "tabs": ["general", "decorative"],
+        "stacks": [
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-building" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-decoration" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-defense" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-ingredients" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-storage" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-tools" } },
 
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-birch" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-oak" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-maple" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-pine" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-acacia" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-kapok" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-baldcypress" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-larch" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-redwood" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-ebony" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-walnut" } },
-        { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-purpleheart" } }
-      ]
-    }
-  ],
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-aged" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-birch" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-oak" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-maple" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-pine" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-acacia" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-kapok" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-baldcypress" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-larch" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-redwood" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-ebony" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-walnut" } },
+          { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed", "type": "wood-purpleheart" } }
+        ]
+      }
+    ]
+  },
   "heldTpIdleAnimation": "holdunderarm",
   "shapeInventory": { "base": "block/wood/crate/2x2x3/normal-closed", "rotateY": 180 },
   "shape": {
