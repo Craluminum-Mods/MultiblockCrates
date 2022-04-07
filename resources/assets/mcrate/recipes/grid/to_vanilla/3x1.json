@@ -2,7 +2,7 @@
   "ingredientPattern": "TC",
   "ingredients": {
     "T": { "type": "item", "code": "game:saw-*", "isTool": true },
-    "C": { "type": "block", "code": "crate3x1-east" }
+    "C": { "type": "block", "code": "crate*-east", "allowedVariants": ["3x1"] }
   },
   "copyAttributesFrom": "C",
   "recipeGroup": 2,

@@ -1,5 +1,6 @@
 {
-  "ingredientPattern": "C_T,___,___",
+  "enabled": false,
+  "ingredientPattern": "T_C,___,___",
   "ingredients": {
     "T": { "type": "item", "code": "game:saw-*", "isTool": true },
     "C": { "type": "block", "code": "game:crate", "quantity": 3 }
@@ -8,5 +9,5 @@
   "recipeGroup": 2,
   "width": 3,
   "height": 3,
-  "output": { "type": "block", "code": "crate3x1-east", "attributes": { "lidState": "closed" } }
+  "output": { "type": "block", "code": "crate1x3-east", "attributes": { "lidState": "closed" } }
 }
