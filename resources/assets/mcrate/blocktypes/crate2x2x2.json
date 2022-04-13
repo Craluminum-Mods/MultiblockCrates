@@ -115,6 +115,7 @@
           { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-ingredients" } },
           { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-storage" } },
           { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-tools" } },
+          { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-empty" } },
 
           { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged" } },
           { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed", "type": "wood-birch" } },
