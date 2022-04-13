@@ -1,12 +1,26 @@
-{
-  "ingredientPattern": "T_C",
-  "ingredients": {
-    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
-    "C": { "type": "block", "code": "game:crate", "quantity": 3 }
+[
+  {
+    "ingredientPattern": "T_C",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "C": { "type": "block", "code": "game:crate", "quantity": 3 }
+    },
+    "copyAttributesFrom": "C",
+    "recipeGroup": 2,
+    "width": 3,
+    "height": 1,
+    "output": { "type": "block", "code": "crate3x1-east", "attributes": { "lidState": "closed" } }
   },
-  "copyAttributesFrom": "C",
-  "recipeGroup": 2,
-  "width": 3,
-  "height": 1,
-  "output": { "type": "block", "code": "crate3x1-east", "attributes": { "lidState": "closed" } }
-}
+  {
+    "ingredientPattern": "T__,CCC",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "C": { "type": "block", "code": "game:crate" }
+    },
+    "copyAttributesFrom": "C",
+    "recipeGroup": 3,
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "crate3x1-east", "attributes": { "lidState": "closed" } }
+  }
+]
