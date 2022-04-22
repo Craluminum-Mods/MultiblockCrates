@@ -33,7 +33,7 @@
       "C": { "type": "block", "code": "crate3x1-*" }
     },
     "copyAttributesFrom": "C",
-    "recipeGroup": 3,
+    "recipeGroup": 4,
     "width": 2,
     "height": 2,
     "output": { "type": "block", "code": "crate1x3-east", "attributes": { "lidState": "closed" } }
@@ -46,7 +46,7 @@
       "C": { "type": "block", "code": "crate1x3-*" }
     },
     "copyAttributesFrom": "C",
-    "recipeGroup": 3,
+    "recipeGroup": 4,
     "width": 2,
     "height": 2,
     "output": { "type": "block", "code": "crate3x1-east", "attributes": { "lidState": "closed" } }
