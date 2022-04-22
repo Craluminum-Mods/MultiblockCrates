@@ -2,7 +2,7 @@
   "code": "crate1x3",
   "class": "BlockCrate",
   "entityclass": "Crate",
-  "maxStackSize": 32,
+  "maxStackSize": 24,
   "attributes": {
     "partialAttachable": true,
     "inventoryClassName": "crate",
