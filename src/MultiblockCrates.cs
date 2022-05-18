@@ -1,4 +1,4 @@
-using MultiblockContainers.Content;
+using MultiblockCrates.Content;
 using Vintagestory.API.Common;
 
 [assembly: ModInfo("MultiblockCrates",

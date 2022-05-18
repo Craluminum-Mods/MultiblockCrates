@@ -2,7 +2,7 @@ using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 
-namespace MultiblockContainers.Content
+namespace MultiblockCrates.Content
 {
 	public class BlockMultiblockCrate : BlockCrate
   {
