@@ -1,6 +1,6 @@
 {
   "code": "crate2x2x2",
-  "class": "BlockCrate",
+  "class": "BlockMultiblockCrate",
   "entityclass": "Crate",
   "maxStackSize": 8,
   "attributes": {
