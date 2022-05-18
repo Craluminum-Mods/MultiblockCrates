@@ -1,6 +1,11 @@
 {
   "blockdesc-*": "<font color=\"#bae1ff\">Довжина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Висота</font>",
 
+  "RemoveLabelFromCrate.Description": "Знімає пергамент із ящика",
+  "RemoveLabelFromCrate.NoCrate": "Перед вами немає ящика (або спробуйте подивитися на головну частину мультиблоку)",
+  "RemoveLabelFromCrate.CrateWithoutLabel": "На ящику немає пергаменту або ви дивитеся на частину без пергаменту",
+  "RemoveLabelFromCrate.DidRemoveLabel": "Пергамент успішно знято з ящика",
+
   "cratewood-wood-acacia": "Акацієвий ящик",
   "cratewood-wood-aged": "Стародавній ящик",
   "cratewood-wood-baldcypress": "Ящик з болотяного кипарису",
