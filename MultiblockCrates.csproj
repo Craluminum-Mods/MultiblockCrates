@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net461</TargetFramework>
+	</PropertyGroup>
+	
+  <ItemGroup>
+		<Reference Include="Vintagestory">
+				<HintPath>$(VINTAGE_STORY)\Vintagestory.exe</HintPath>
+				<Private>false</Private>
+		</Reference>
+		<Reference Include="VintagestoryAPI">
+				<HintPath>$(VINTAGE_STORY)\VintagestoryAPI.dll</HintPath>
+				<Private>false</Private>
+		</Reference>
+		<Reference Include="VintagestoryLib">
+				<HintPath>$(VINTAGE_STORY)\VintagestoryLib.dll</HintPath>
+				<Private>false</Private>
+		</Reference>
+		<Reference Include="VSCreativeMod">
+				<HintPath>$(VINTAGE_STORY)\Mods\VSCreativeMod.dll</HintPath>
+				<Private>false</Private>
+		</Reference>
+		<Reference Include="VSSurvivalMod">
+				<HintPath>$(VINTAGE_STORY)\Mods\VSSurvivalMod.dll</HintPath>
+				<Private>false</Private>
+		</Reference>
+		<Reference Include="VSEssentials">
+				<HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
+				<Private>false</Private>
+		</Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+	<ItemGroup Condition="'$(Configuration)' == 'ReleaseToMods'">
+		<None Include="resources/**">
+			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="LICENSE">
+			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	
+	<Target Name="Package" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'ReleaseToMods'">
+		<ZipDirectory DestinationFile="$(VINTAGE_STORY_DATA)/Mods/$(TargetName)-v1.0.4.zip" SourceDirectory="$(TargetDir)" Overwrite="true" />
+	</Target>
+</Project>
