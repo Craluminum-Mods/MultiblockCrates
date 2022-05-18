@@ -1,46 +1,11 @@
-[
-  {
-    "ingredientPattern": "C",
-    "ingredients": {
-      "C": { "type": "block", "code": "crate*-east", "attributes": { "lidState": "opened" }, "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "width": 1,
-    "height": 1,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
+{
+  "ingredientPattern": "C",
+  "ingredients": {
+    "C": { "type": "block", "code": "crate*-east", "attributes": { "lidState": "opened" }, "name": "size" }
   },
-  {
-    "ingredientPattern": "C",
-    "ingredients": {
-      "C": { "type": "block", "code": "crate*-west", "attributes": { "lidState": "opened" }, "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "width": 1,
-    "height": 1,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
-  },
-  {
-    "ingredientPattern": "C",
-    "ingredients": {
-      "C": { "type": "block", "code": "crate*-south", "attributes": { "lidState": "opened" }, "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "width": 1,
-    "height": 1,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
-  },
-  {
-    "ingredientPattern": "C",
-    "ingredients": {
-      "C": { "type": "block", "code": "crate*-north", "attributes": { "lidState": "opened" }, "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "width": 1,
-    "height": 1,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
-  }
-]
+  "shapeless": true,
+  "copyAttributesFrom": "C",
+  "width": 1,
+  "height": 1,
+  "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
+}

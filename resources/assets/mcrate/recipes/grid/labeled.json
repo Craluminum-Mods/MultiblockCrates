@@ -1,54 +1,13 @@
-[
-  {
-    "ingredientPattern": "S,C",
-    "ingredients": {
-      "S": { "type": "item", "code": "game:paper-parchment" },
-      "C": { "type": "block", "code": "crate*-east", "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "recipeGroup": 3,
-    "width": 1,
-    "height": 2,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "label": "paper-empty" } }
+{
+  "ingredientPattern": "S,C",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:paper-parchment" },
+    "C": { "type": "block", "code": "crate*-east", "name": "size" }
   },
-  {
-    "ingredientPattern": "S,C",
-    "ingredients": {
-      "S": { "type": "item", "code": "game:paper-parchment" },
-      "C": { "type": "block", "code": "crate*-west", "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "recipeGroup": 3,
-    "width": 1,
-    "height": 2,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "label": "paper-empty" } }
-  },
-  {
-    "ingredientPattern": "S,C",
-    "ingredients": {
-      "S": { "type": "item", "code": "game:paper-parchment" },
-      "C": { "type": "block", "code": "crate*-south", "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "recipeGroup": 3,
-    "width": 1,
-    "height": 2,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "label": "paper-empty" } }
-  },
-  {
-    "ingredientPattern": "S,C",
-    "ingredients": {
-      "S": { "type": "item", "code": "game:paper-parchment" },
-      "C": { "type": "block", "code": "crate*-north", "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "recipeGroup": 3,
-    "width": 1,
-    "height": 2,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "label": "paper-empty" } }
-  }
-]
+  "shapeless": true,
+  "copyAttributesFrom": "C",
+  "recipeGroup": 3,
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "crate{size}-east", "attributes": { "label": "paper-empty" } }
+}
