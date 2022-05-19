@@ -17,10 +17,10 @@ namespace MultiblockCrates.Content
     public override void StartServerSide(ICoreServerAPI api)
     {
       sapi = api;
-      sapi.RegisterCommand("removelabel", Lang.Get("mcrate:RemoveLabelFromCrate.Description"), "", onCrateRemoveLabelSetCmd, null);
+      sapi.RegisterCommand("removelabel", Lang.Get("mcrate:RemoveLabelFromCrate.Description"), "", onRemoveLabelCmd, null);
     }
 
-    private void onCrateRemoveLabelSetCmd(IServerPlayer player, int groupId, CmdArgs args)
+    private void onRemoveLabelCmd(IServerPlayer player, int groupId, CmdArgs args)
     {
       IServerWorldAccessor world = sapi.World;
       ItemSlot activeSlot = player.InventoryManager.ActiveHotbarSlot;
