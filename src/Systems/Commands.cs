@@ -65,7 +65,7 @@ public class Commands : ModSystem
     {
         if (!player.InventoryManager.TryGiveItemstack(LabelStack.Clone(), true))
         {
-            bect.Api.World.SpawnItemEntity(LabelStack.Clone(), player.Entity.Pos.XYZ);
+            bect.Api.World.SpawnItemEntity(LabelStack.Clone(), player.Entity.ServerPos.XYZ);
         }
 
         bect.label = null;
