@@ -4,7 +4,7 @@ using Vintagestory.API.Common;
 
 namespace MultiblockCrates;
 
-public class MultiblockCrates : ModSystem
+public class Core : ModSystem
 {
     public override void Start(ICoreAPI api)
     {
