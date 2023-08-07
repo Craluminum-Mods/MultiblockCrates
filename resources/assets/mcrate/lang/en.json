@@ -1,33 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Length</font> x <font color=\"#baffc9\">Width</font> x <font color=\"#ffffba\">Height</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Length</font> x <font color=\"#baffc9\">Width</font> x <font color=\"#ffffba\">Height</font>",
 
-  "RemoveLabelFromCrate.Description": "Removes a label from a crate",
-  "RemoveLabelFromCrate.NoCrate": "Not looking at a crate (or try to look at the main part of the multiblock)",
-  "RemoveLabelFromCrate.CrateWithoutLabel": "Crate does not have a label or you are looking at a part without a label",
-  "RemoveLabelFromCrate.DidRemoveLabel": "Removed label from crate",
+    "RemoveOrAddLabel.Name": "Remove or add parchment on crate",
 
-  "cratewood-wood-acacia": "Acacia crate",
-  "cratewood-wood-aged": "Aged crate",
-  "cratewood-wood-baldcypress": "Bald cypress crate",
-  "cratewood-wood-birch": "Birch crate",
-  "cratewood-wood-ebony": "Ebony crate",
-  "cratewood-wood-kapok": "Kapok crate",
-  "cratewood-wood-larch": "Larch crate",
-  "cratewood-wood-maple": "Maple crate",
-  "cratewood-wood-oak": "Oak crate",
-  "cratewood-wood-pine": "Pine crate",
-  "cratewood-wood-purpleheart": "Purpleheart crate",
-  "cratewood-wood-redwood": "Redwood crate",
-  "cratewood-wood-walnut": "Walnut crate",
+    "Error.NoCrate": "No crate in sight",
+    "Error.HasDiffLabel": "Crate has different parchment",
+    "Error.NoLabel": "No parchment in hand or on crate",
 
-  "block-wood-*-crate1x2-*": "{1} (1x2) ({0})",
-  "block-wood-*-crate1x3-*": "{1} (1x3) ({0})",
-  "block-wood-*-crate2x1-*": "{1} (2x1) ({0})",
-  "block-wood-*-crate2x2x2-*": "{1} (2x2x2) ({0})",
-  "block-wood-*-crate2x2x3-*": "{1} (2x2x3) ({0})",
-  "block-wood-*-crate3x1-*": "{1} (3x1) ({0})",
-  "block-wood-*-crate3x2x2-*": "{1} (3x2x2) ({0})",
-  "block-wood-*-crate3x2x3-*": "{1} (3x2x3) ({0})",
-  "block-wood-*-crate3x3x2-*": "{1} (3x3x2) ({0})",
-  "block-wood-*-crate3x3x3-*": "{1} (3x3x3) ({0})"
+    "Success.LabelRemoved": "Removed parchment from crate",
+    "Success.LabelAdded": "Added parchment to crate"
 }

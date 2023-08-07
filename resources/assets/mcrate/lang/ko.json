@@ -1,0 +1,12 @@
+{
+    "blockdesc-*": "<font color=\"#bae1ff\">길이</font> x <font color=\"#baffc9\">너비</font> x <font color=\"#ffffba\">높이</font>",
+
+    "RemoveOrAddLabel.Name": "상자에 양피지 제거 또는 추가",
+
+    "Error.NoCrate": "상자가 보이지 않습니다",
+    "Error.HasDiffLabel": "상자에 다른 양피지가 있습니다",
+    "Error.NoLabel": "손이나 상자에 양피지가 없습니다",
+
+    "Success.LabelRemoved": "상자에서 양피지를 제거했습니다",
+    "Success.LabelAdded": "상자에 양피지 추가"
+}

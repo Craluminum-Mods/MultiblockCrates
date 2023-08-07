@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">长度</font> x <font color=\"#baffc9\">宽度</font> x <font color=\"#ffffba\">高度</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">长度</font> x <font color=\"#baffc9\">宽度</font> x <font color=\"#ffffba\">高度</font>",
 
-  "cratewood-wood-acacia": "金合欢木板条箱",
-  "cratewood-wood-aged": "古木板条箱",
-  "cratewood-wood-baldcypress": "落羽杉木板条箱",
-  "cratewood-wood-birch": "桦木板条箱",
-  "cratewood-wood-ebony": "黑檀木板条箱",
-  "cratewood-wood-kapok": "木棉木板条箱",
-  "cratewood-wood-larch": "落叶松木板条箱",
-  "cratewood-wood-maple": "枫木板条箱",
-  "cratewood-wood-oak": "橡木板条箱",
-  "cratewood-wood-pine": "松木板条箱",
-  "cratewood-wood-purpleheart": "紫心木板条箱",
-  "cratewood-wood-redwood": "红杉木板条箱",
-  "cratewood-wood-walnut": "胡桃木板条箱"
+    "RemoveOrAddLabel.Name": "移除或添加板条箱上的羊皮纸",
+
+    "Error.NoCrate": "看不到箱子",
+    "Error.HasDiffLabel": "箱子有不同的羊皮纸",
+    "Error.NoLabel": "手中或板条箱上没有羊皮纸",
+
+    "Success.LabelRemoved": "从箱子里取出羊皮纸",
+    "Success.LabelAdded": "为箱子添加羊皮纸"
 }

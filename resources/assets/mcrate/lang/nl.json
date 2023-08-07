@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Lengte</font> x <font color=\"#baffc9\">Breedte</font> x <font color=\"#ffffba\">Hoogte</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Lengte</font> x <font color=\"#baffc9\">Breedte</font> x <font color=\"#ffffba\">Hoogte</font>",
 
-  "cratewood-wood-acacia": "Acacia krat",
-  "cratewood-wood-aged": "Verouderd krat",
-  "cratewood-wood-baldcypress": "Moerascipres krat",
-  "cratewood-wood-birch": "Berken krat",
-  "cratewood-wood-ebony": "Ebbenhout krat",
-  "cratewood-wood-kapok": "Kapok krat",
-  "cratewood-wood-larch": "Lariks krat",
-  "cratewood-wood-maple": "Esdoorn krat",
-  "cratewood-wood-oak": "Eiken krat",
-  "cratewood-wood-pine": "Dennenhouten krat",
-  "cratewood-wood-purpleheart": "Purperhart krat",
-  "cratewood-wood-redwood": "Sequoia krat",
-  "cratewood-wood-walnut": "Walnoot krat"
+    "RemoveOrAddLabel.Name": "Verwijder of voeg perkament toe aan krat",
+
+    "Error.NoCrate": "Geen krat in zicht",
+    "Error.HasDiffLabel": "Krat heeft ander perkament",
+    "Error.NoLabel": "Geen perkament in hand of op krat",
+
+    "Success.LabelRemoved": "Perkament uit krat verwijderd",
+    "Success.LabelAdded": "Perkament toegevoegd aan krat"
 }

@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">長さ</font> x <font color=\"#baffc9\">幅</font> x <font color=\"#ffffba\">高さ</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">長さ</font> x <font color=\"#baffc9\">幅</font> x <font color=\"#ffffba\">高さ</font>",
 
-  "cratewood-wood-acacia": "アカシアの木箱",
-  "cratewood-wood-aged": "古びた木箱",
-  "cratewood-wood-baldcypress": "ヌマスギの木箱",
-  "cratewood-wood-birch": "シラカバの木箱",
-  "cratewood-wood-ebony": "コクタンの木箱",
-  "cratewood-wood-kapok": "カポックの木箱",
-  "cratewood-wood-larch": "カラマツの木箱",
-  "cratewood-wood-maple": "カエデの木箱",
-  "cratewood-wood-oak": "オークの木箱",
-  "cratewood-wood-pine": "マツの木箱",
-  "cratewood-wood-purpleheart": "パープルハートの木箱",
-  "cratewood-wood-redwood": "レッドウッドの木箱",
-  "cratewood-wood-walnut": "クルミの木箱"
+    "RemoveOrAddLabel.Name": "木箱のパーチメントを取り除くか追加する",
+
+    "Error.NoCrate": "クレートは見当たらない",
+    "Error.HasDiffLabel": "木箱の羊皮紙が違う",
+    "Error.NoLabel": "羊皮紙は手にも木箱にもない",
+
+    "Success.LabelRemoved": "木箱から羊皮紙を取り出す",
+    "Success.LabelAdded": "木箱に羊皮紙を追加"
 }

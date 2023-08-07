@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Dĺžka</font> x <font color=\"#baffc9\">Šírka</font> x <font color=\"#ffffba\">Výška</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Dĺžka</font> x <font color=\"#baffc9\">Šírka</font> x <font color=\"#ffffba\">Výška</font>",
 
-  "cratewood-wood-acacia": "Akáciová debnička",
-  "cratewood-wood-aged": "Stará debnička",
-  "cratewood-wood-baldcypress": "Debnička z tisovca dvojradého",
-  "cratewood-wood-birch": "Brezová debnička",
-  "cratewood-wood-ebony": "Debnička z ebenu",
-  "cratewood-wood-kapok": "Vlnovcová debnička",
-  "cratewood-wood-larch": "Smrekovcová debnička",
-  "cratewood-wood-maple": "Javorová debnička",
-  "cratewood-wood-oak": "Dubová debnička",
-  "cratewood-wood-pine": "Borovicová debnička",
-  "cratewood-wood-purpleheart": "Debnička z dreva stromu Purpleheart",
-  "cratewood-wood-redwood": "Sekvojová debnička",
-  "cratewood-wood-walnut": "Orechová debnička"
+    "RemoveOrAddLabel.Name": "Odstrániť alebo pridať pergamen na debnu",
+
+    "Error.NoCrate": "Žiadna debna v dohľade",
+    "Error.HasDiffLabel": "Debna má iný pergamen",
+    "Error.NoLabel": "Žiadny pergamen v ruke ani na debne",
+
+    "Success.LabelRemoved": "Odstránený pergamen z debny",
+    "Success.LabelAdded": "Pridaný pergamen do debny"
 }

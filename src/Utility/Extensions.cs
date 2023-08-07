@@ -1,5 +1,4 @@
 using Vintagestory.API.Common;
-using Vintagestory.API.Config;
 using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 
@@ -17,10 +16,5 @@ public static class Extensions
         return blockEntity is BlockEntityCrate _becrate
             ? _becrate
             : world.BlockAccessor.GetBlockEntity<BlockEntityCrate>(bhMultiblock?.GetField<Vec3i>("ControllerPositionRel")?.AsBlockPos);
-    }
-
-    public static string ColorText(this string text)
-    {
-        return Lang.Get("mcrate:format-pastelbrown", text);
     }
 }

@@ -1,0 +1,12 @@
+{
+    "blockdesc-*": "<font color=\"#bae1ff\">Délka</font> x <font color=\"#baffc9\">Šířka</font> x <font color=\"#ffffba\">Výška</font>",
+
+    "RemoveOrAddLabel.Name": "Odstranit nebo přidat pergamen na bednu",
+
+    "Error.NoCrate": "Žádná bedna v dohledu",
+    "Error.HasDiffLabel": "Bedna má jiný pergamen",
+    "Error.NoLabel": "V ruce ani na bedně není pergamen",
+
+    "Success.LabelRemoved": "Odstranění pergamenu z bedny",
+    "Success.LabelAdded": "Přidán pergamen do bedny"
+}

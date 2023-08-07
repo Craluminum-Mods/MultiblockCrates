@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Longueur</font> x <font color=\"#baffc9\">Largeur</font> x <font color=\"#ffffba\">Hauteur</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Longueur</font> x <font color=\"#baffc9\">Largeur</font> x <font color=\"#ffffba\">Hauteur</font>",
 
-  "cratewood-wood-acacia": "Caisse en acacia",
-  "cratewood-wood-aged": "Vieille caisse",
-  "cratewood-wood-baldcypress": "Caisse en cyprès chauve",
-  "cratewood-wood-birch": "Caisse en bouleau",
-  "cratewood-wood-ebony": "Caisse en ébène",
-  "cratewood-wood-kapok": "Caisse en fromager",
-  "cratewood-wood-larch": "Caisse en mélèze",
-  "cratewood-wood-maple": "Caisse en érable",
-  "cratewood-wood-oak": "Caisse en chêne",
-  "cratewood-wood-pine": "Caisse en pin",
-  "cratewood-wood-purpleheart": "Caisse en peltogyne",
-  "cratewood-wood-redwood": "Caisse en séquoia",
-  "cratewood-wood-walnut": "Caisse en noyer"
+    "RemoveOrAddLabel.Name": "Retirer ou ajouter du parchemin sur la caisse",
+
+    "Error.NoCrate": "Pas de caisse en vue",
+    "Error.HasDiffLabel": "La caisse a un parchemin différent",
+    "Error.NoLabel": "Pas de parchemin dans la main ou sur la caisse",
+
+    "Success.LabelRemoved": "Retiré le parchemin de la caisse",
+    "Success.LabelAdded": "Added parchment to crate"
 }

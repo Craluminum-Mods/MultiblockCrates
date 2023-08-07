@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Länge</font> x <font color=\"#baffc9\">Breite</font> x <font color=\"#ffffba\">Höhe</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Länge</font> x <font color=\"#baffc9\">Breite</font> x <font color=\"#ffffba\">Höhe</font>",
 
-  "cratewood-wood-acacia": "Akazienkiste",
-  "cratewood-wood-aged": "Alte Holzkiste",
-  "cratewood-wood-baldcypress": "Sumpfzypressenkiste",
-  "cratewood-wood-birch": "Birkenkiste",
-  "cratewood-wood-ebony": "Ebenholzkiste",
-  "cratewood-wood-kapok": "Kapokkiste",
-  "cratewood-wood-larch": "Lärchenkiste",
-  "cratewood-wood-maple": "Ahornkiste",
-  "cratewood-wood-oak": "Eichenkiste",
-  "cratewood-wood-pine": "Kieferkiste",
-  "cratewood-wood-purpleheart": "Amaranthkiste",
-  "cratewood-wood-redwood": "Rotholzkiste",
-  "cratewood-wood-walnut": "Walnusskiste"
+    "RemoveOrAddLabel.Name": "Pergament auf Kiste entfernen oder hinzufügen",
+
+    "Error.NoCrate": "Keine Kiste in Sicht",
+    "Error.HasDiffLabel": "Kiste hat anderes Pergament",
+    "Error.NoLabel": "Kein Pergament in der Hand oder auf der Kiste",
+
+    "Success.LabelRemoved": "Pergament aus der Kiste entfernt",
+    "Success.LabelAdded": "Pergament zur Kiste hinzugefügt"
 }

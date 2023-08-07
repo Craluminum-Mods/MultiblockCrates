@@ -1,22 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Длина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Высота</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Длина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Высота</font>",
 
-  "RemoveLabelFromCrate.Description": "Снимает пергамент с ящика",
-  "RemoveLabelFromCrate.NoCrate": "Перед вами нет ящика (либо попробуйте посмотреть на главную часть мультиблока)",
-  "RemoveLabelFromCrate.CrateWithoutLabel": "На ящике нет пергамента или вы смотрите на часть без пергамента",
-  "RemoveLabelFromCrate.DidRemoveLabel": "Пергамент успешно снят с ящика",
+    "RemoveOrAddLabel.Name": "Снять или повесить пергамент на ящик",
 
-  "cratewood-wood-acacia": "Акациевый ящик",
-  "cratewood-wood-aged": "Древний ящик",
-  "cratewood-wood-baldcypress": "Ящик из болотного кипариса",
-  "cratewood-wood-birch": "Березовый ящик",
-  "cratewood-wood-ebony": "Ящик из черного дерева",
-  "cratewood-wood-kapok": "Ящик из капока",
-  "cratewood-wood-larch": "Ящик из лиственницы",
-  "cratewood-wood-maple": "Кленовый ящик",
-  "cratewood-wood-oak": "Дубовый ящик",
-  "cratewood-wood-pine": "Сосновый ящик",
-  "cratewood-wood-purpleheart": "Ящик из пурпурного дерева",
-  "cratewood-wood-redwood": "Ящик из секвойи",
-  "cratewood-wood-walnut": "Ящик из грецкого ореха"
+    "Error.NoCrate": "Нет ящика в поле зрения",
+    "Error.HasDiffLabel": "На ящике другой пергамент",
+    "Error.NoLabel": "В руке или на ящике нет пергамента",
+
+    "Success.LabelRemoved": "Пергамент снят с ящика",
+    "Success.LabelAdded": "Пергамент добавлен на ящик"
 }

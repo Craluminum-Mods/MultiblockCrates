@@ -1,0 +1,12 @@
+{
+    "blockdesc-*": "<font color=\"#bae1ff\">Дужина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Висина</font>",
+
+    "RemoveOrAddLabel.Name":"Уклоните или додајте пергамент на сандук",
+
+    "Error.NoCrate": "Нема сандука на видику",
+    "Error.HasDiffLabel": "Сандук има другачији пергамент",
+    "Error.NoLabel": "Без пергамента у руци или на сандуку",
+
+    "Success.LabelRemoved": "Уклоњен пергамент из сандука",
+    "Success.LabelAdded": "Додат пергамент у сандук"
+}

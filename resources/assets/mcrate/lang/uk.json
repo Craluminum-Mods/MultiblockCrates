@@ -1,22 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Довжина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Висота</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Довжина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Висота</font>",
 
-  "RemoveLabelFromCrate.Description": "Знімає пергамент із ящика",
-  "RemoveLabelFromCrate.NoCrate": "Перед вами немає ящика (або спробуйте подивитися на головну частину мультиблоку)",
-  "RemoveLabelFromCrate.CrateWithoutLabel": "На ящику немає пергаменту або ви дивитеся на частину без пергаменту",
-  "RemoveLabelFromCrate.DidRemoveLabel": "Пергамент успішно знято з ящика",
+    "RemoveOrAddLabel.Name": "Зняти або повісити пергамент на ящик",
 
-  "cratewood-wood-acacia": "Акацієвий ящик",
-  "cratewood-wood-aged": "Стародавній ящик",
-  "cratewood-wood-baldcypress": "Ящик з болотяного кипарису",
-  "cratewood-wood-birch": "Березовий ящик",
-  "cratewood-wood-ebony": "Ящик з чорного дерева",
-  "cratewood-wood-kapok": "Ящик з бавовняного дерева",
-  "cratewood-wood-larch": "Модриновий ящик",
-  "cratewood-wood-maple": "Кленовий ящик",
-  "cratewood-wood-oak": "Дубовий ящик",
-  "cratewood-wood-pine": "Сосновий ящик",
-  "cratewood-wood-purpleheart": "Амарантовий ящик",
-  "cratewood-wood-redwood": "Ящик з секвої",
-  "cratewood-wood-walnut": "Ящик з волоського горіха"
+    "Error.NoCrate": "Немає ящику у полі зору",
+    "Error.HasDiffLabel": "Ящик має інший пергамент",
+    "Error.NoLabel": "У руці чи на ящику немає пергаменту",
+
+    "Success.LabelRemoved": "Пергамент знятий з ящика",
+    "Success.LabelAdded": "Пергамент додано на ящик"
 }

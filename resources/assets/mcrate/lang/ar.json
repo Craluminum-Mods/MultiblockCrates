@@ -1,0 +1,12 @@
+{
+    "blockdesc-*": "<font color=\"#bae1ff\"> الطول </ font> x <font color=\"#baffc9\"> العرض </ font> x <font color=\"#ffffba\"> الارتفاع </font>",
+    
+    "RemoveOrAddLabel.Name": "إزالة أو إضافة شهادة جامعية على الصندوق",
+    
+    "Error.NoCrate": "لا يوجد صندوق في الأفق",
+    "Error.HasDiffLabel": "Crate به رق مختلف",
+    "Error.NoLabel": "ليس هناك ورق برشمان في اليد أو على الصندوق",
+    
+    "Success.LabelRemoved": "تمت إزالة الرق من الصندوق",
+    "Success.LabelAdded": "تمت إضافة رق إلى الصندوق"
+}

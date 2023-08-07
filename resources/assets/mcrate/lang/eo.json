@@ -1,17 +1,12 @@
 {
-  "blockdesc-*": "<font color=\"#bae1ff\">Longo</font> x <font color=\"#baffc9\">Larĝo</font> x <font color=\"#ffffba\">Alto</font>",
+    "blockdesc-*": "<font color=\"#bae1ff\">Longo</font> x <font color=\"#baffc9\">Larĝo</font> x <font color=\"#ffffba\">Alto</font>",
 
-  "cratewood-wood-acacia": "Akaciligna kesto",
-  "cratewood-wood-aged": "Malnova kesto",
-  "cratewood-wood-baldcypress": "Marĉa taksodiaj kesto",
-  "cratewood-wood-birch": "Betulligna kesto",
-  "cratewood-wood-ebony": "Ebona kesto",
-  "cratewood-wood-kapok": "Kapokligna kesto",
-  "cratewood-wood-larch": "Larikligna kesto",
-  "cratewood-wood-maple": "Acerligna kesto",
-  "cratewood-wood-oak": "Kverkligna kesto",
-  "cratewood-wood-pine": "Piniligna kesto",
-  "cratewood-wood-purpleheart": "Peltogina kesto",
-  "cratewood-wood-redwood": "Sekvojandroligna kesto",
-  "cratewood-wood-walnut": "Juglandligna kesto"
+    "RemoveOrAddLabel.Name": "Forigi aŭ aldoni pergamenon sur keston",
+
+    "Error.NoCrate": "Neniu kesto en vido",
+    "Error.HasDiffLabel": "Kesto havas malsaman pergamenon",
+    "Error.NoLabel": "Neniu pergameno en la mano aŭ sur kesto",
+
+    "Success.LabelRemoved": "Forigita pergameno el kesto",
+    "Success.LabelAdded": "Aldonita pergameno al kesto"
 }
