@@ -1,9 +1,7 @@
 using Vintagestory.API.Common;
 using System.Collections.Generic;
 using MultiblockCrates;
-using System.Linq;
 using Vintagestory.GameContent;
-using static MultiblockCrates.Constants;
 
 namespace WoodChests;
 
