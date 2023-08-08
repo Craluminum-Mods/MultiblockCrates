@@ -8,13 +8,18 @@ public static class Extensions
 {
     public static BlockEntityCrate GetCrate(this IWorldAccessor world, BlockPos pos)
     {
-        BlockEntity blockEntity = world.BlockAccessor.GetBlockEntity(pos);
-        BlockBehaviorMultiblock bhMultiblock = blockEntity?.GetBehavior<BlockBehaviorMultiblock>();
+        if (world.BlockAccessor.GetBlockEntity<BlockEntityCrate>(pos) is BlockEntityCrate becrate)
+        {
+            return becrate;
+        }
 
-        if (blockEntity == null) return null;
+        if (world.BlockAccessor.GetBlock(pos) is BlockMultiblock multiblock)
+        {
+            BlockPos multiblockPos = new(pos.X + multiblock.OffsetInv.X, pos.Y + multiblock.OffsetInv.Y, pos.Z + multiblock.OffsetInv.Z);
 
-        return blockEntity is BlockEntityCrate _becrate
-            ? _becrate
-            : world.BlockAccessor.GetBlockEntity<BlockEntityCrate>(bhMultiblock?.GetField<Vec3i>("ControllerPositionRel")?.AsBlockPos);
+            return world.BlockAccessor.GetBlockEntity<BlockEntityCrate>(multiblockPos);
+        }
+
+        return null;
     }
 }
