@@ -1,9 +1,8 @@
 using Vintagestory.API.Common;
 using System.Collections.Generic;
-using MultiblockCrates;
 using Vintagestory.GameContent;
 
-namespace WoodChests;
+namespace MultiblockCrates;
 
 public class AdvancedPatches : ModSystem
 {
