@@ -5,88 +5,7 @@
   "maxStackSize": 4,
   "attributes": {
     "partialAttachable": true,
-    "inventoryClassName": "crate",
-    "defaultType": "wood-aged",
-    "handbook": { "groupBy": ["crate3x2x2-*"] },
-    "labels": {
-      "paper-building": {
-        "texture": "label-building",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "paper-decoration": {
-        "texture": "label-decoration",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "paper-defense": {
-        "texture": "label-defense",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "paper-empty": {
-        "editableShape": { "base": "mcrate:block/wood/crate/label-paper-item" },
-        "texture": "label-empty",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "paper-ingredients": {
-        "texture": "label-ingredients",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "paper-storage": {
-        "texture": "label-storage",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "paper-tools": {
-        "texture": "label-tools",
-        "shape": { "base": "mcrate:block/wood/crate/label-paper" }
-      },
-      "wood": {
-        "texture": "woodlabel-empty",
-        "editable": true,
-        "shape": { "base": "mcrate:block/wood/crate/label-wood" }
-      }
-    },
-    "types": [
-      "wood-aged",
-      "wood-birch",
-      "wood-oak",
-      "wood-maple",
-      "wood-pine",
-      "wood-acacia",
-      "wood-kapok",
-      "wood-baldcypress",
-      "wood-larch",
-      "wood-redwood",
-      "wood-ebony",
-      "wood-walnut",
-      "wood-purpleheart"
-    ],
-    "properties": {
-      "wood-aged": {
-        "quantitySlots": 192,
-        "rotatatableInterval": "22.5degnot45deg",
-        "shape": { "base": "mcrate:block/wood/crate/3x2x2/normal-closed" }
-      },
-      "wood-ebony": {
-        "quantitySlots": 300,
-        "rotatatableInterval": "22.5degnot45deg",
-        "storageType": 189,
-        "retrieveOnly": false,
-        "shape": { "base": "mcrate:block/wood/crate/3x2x2/normal-closed" }
-      },
-      "wood-purpleheart": {
-        "quantitySlots": 300,
-        "rotatatableInterval": "22.5degnot45deg",
-        "storageType": 189,
-        "retrieveOnly": false,
-        "shape": { "base": "mcrate:block/wood/crate/3x2x2/normal-closed" }
-      },
-      "*": {
-        "quantitySlots": 240,
-        "rotatatableInterval": "22.5degnot45deg",
-        "storageType": 189,
-        "retrieveOnly": false,
-        "shape": { "base": "mcrate:block/wood/crate/3x2x2/normal-closed" }
-      }
-    }
+    "handbook": { "groupBy": ["crate3x2x2-*"] }
   },
   "behaviors": [
     { "name": "Lockable" },
@@ -103,37 +22,6 @@
     }
   ],
   "variantgroups": [{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
-  "creativeinventory": {},
-  "creativeinventoryStacksByType": {
-    "*-east": [
-      {
-        "tabs": ["general", "decorative"],
-        "stacks": [
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-building" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-decoration" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-defense" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-ingredients" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-storage" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-tools" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged", "label": "paper-empty" } },
-
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-aged" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-birch" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-oak" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-maple" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-pine" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-acacia" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-kapok" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-baldcypress" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-larch" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-redwood" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-ebony" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-walnut" } },
-          { "type": "block", "code": "crate3x2x2-east", "attributes": { "lidState": "closed", "type": "wood-purpleheart" } }
-        ]
-      }
-    ]
-  },
   "heldTpIdleAnimation": "holdunderarm",
   "shapeInventory": { "base": "block/wood/crate/3x2x2/normal-closed", "rotateY": 180 },
   "shape": { "base": "block/wood/crate/3x2x2/normal-closed", "rotateYByType": { "*-east": 90, "*-west": -90 } },
@@ -147,34 +35,7 @@
     "label-tools": { "base": "game:block/wood/crate/label-tools" },
     "woodlabel-empty": { "base": "game:block/wood/trunk/accessories" },
 
-    "frame-generic": { "base": "game:block/wood/crate/frame-generic" },
-
-    "wood-acacia-inside": { "base": "game:block/wood/crate/acacia-inside" },
-    "wood-acacia-sides": { "base": "game:block/wood/crate/acacia-sides" },
-    "wood-aged-inside": { "base": "game:block/wood/crate/aged-inside" },
-    "wood-aged-sides": { "base": "game:block/wood/crate/aged-sides" },
-    "wood-baldcypress-inside": { "base": "game:block/wood/crate/baldcypress-inside" },
-    "wood-baldcypress-sides": { "base": "game:block/wood/crate/baldcypress-sides" },
-    "wood-birch-inside": { "base": "game:block/wood/crate/birch-inside" },
-    "wood-birch-sides": { "base": "game:block/wood/crate/birch-sides" },
-    "wood-ebony-inside": { "base": "game:block/wood/crate/ebony-inside" },
-    "wood-ebony-sides": { "base": "game:block/wood/crate/ebony-sides" },
-    "wood-kapok-inside": { "base": "game:block/wood/crate/kapok-inside" },
-    "wood-kapok-sides": { "base": "game:block/wood/crate/kapok-sides" },
-    "wood-larch-inside": { "base": "game:block/wood/crate/larch-inside" },
-    "wood-larch-sides": { "base": "game:block/wood/crate/larch-sides" },
-    "wood-maple-inside": { "base": "game:block/wood/crate/maple-inside" },
-    "wood-maple-sides": { "base": "game:block/wood/crate/maple-sides" },
-    "wood-oak-inside": { "base": "game:block/wood/crate/oak-inside" },
-    "wood-oak-sides": { "base": "game:block/wood/crate/oak-sides" },
-    "wood-pine-inside": { "base": "game:block/wood/crate/pine-inside" },
-    "wood-pine-sides": { "base": "game:block/wood/crate/pine-sides" },
-    "wood-purpleheart-inside": { "base": "game:block/wood/crate/purpleheart-inside" },
-    "wood-purpleheart-sides": { "base": "game:block/wood/crate/purpleheart-sides" },
-    "wood-redwood-inside": { "base": "game:block/wood/crate/redwood-inside" },
-    "wood-redwood-sides": { "base": "game:block/wood/crate/redwood-sides" },
-    "wood-walnut-inside": { "base": "game:block/wood/crate/walnut-inside" },
-    "wood-walnut-sides": { "base": "game:block/wood/crate/walnut-sides" }
+    "frame-generic": { "base": "game:block/wood/crate/frame-generic" }
   },
   "blockmaterial": "Wood",
   "replaceable": 900,

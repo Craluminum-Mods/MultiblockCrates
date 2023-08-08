@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 using HarmonyLib;
+using System.Collections.Generic;
 
 namespace MultiblockCrates;
 
@@ -29,7 +30,7 @@ public static class HarmonyReflectionExtensions
     /// <returns>An array containing the values of the fields of a specified Type, reflected by this instance.</returns>
     public static T[] GetFields<T>(this object instance)
     {
-        var declaredFields =
+        IEnumerable<FieldInfo> declaredFields =
             AccessTools.GetDeclaredFields(instance.GetType())?.Where(t => t.FieldType == typeof(T));
         return declaredFields?.Select(val => instance.GetField<T>(val.Name)).ToArray();
     }
@@ -188,7 +189,7 @@ public static class HarmonyReflectionExtensions
     /// <returns>The <see cref="Type"/> of the class, if found within the assembly, otherwise, returns <c>null</c>.</returns>
     public static Type GetClassType(this Assembly assembly, string className)
     {
-        var ts = AccessTools.GetTypesFromAssembly(assembly);
+        Type[] ts = AccessTools.GetTypesFromAssembly(assembly);
         return Array.Find(ts, t => t.Name == className);
     }
 
