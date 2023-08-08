@@ -6,18 +6,18 @@ namespace MultiblockCrates;
 
 public static class Extensions
 {
-    public static BlockEntityCrate GetCrate(this IWorldAccessor world, BlockPos pos)
+    public static T GetBlockEntityExt<T>(this IBlockAccessor blockAccessor, BlockPos pos) where T : BlockEntity
     {
-        if (world.BlockAccessor.GetBlockEntity<BlockEntityCrate>(pos) is BlockEntityCrate becrate)
+        if (blockAccessor.GetBlockEntity<T>(pos) is T becrate)
         {
             return becrate;
         }
 
-        if (world.BlockAccessor.GetBlock(pos) is BlockMultiblock multiblock)
+        if (blockAccessor.GetBlock(pos) is BlockMultiblock multiblock)
         {
             BlockPos multiblockPos = new(pos.X + multiblock.OffsetInv.X, pos.Y + multiblock.OffsetInv.Y, pos.Z + multiblock.OffsetInv.Z);
 
-            return world.BlockAccessor.GetBlockEntity<BlockEntityCrate>(multiblockPos);
+            return blockAccessor.GetBlockEntity<T>(multiblockPos);
         }
 
         return null;

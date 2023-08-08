@@ -36,7 +36,7 @@ public class Commands : ModSystem
 
         ItemSlot activeSlot = player.InventoryManager.ActiveHotbarSlot;
 
-        BlockEntityCrate becrate = world.GetCrate(pos);
+        BlockEntityCrate becrate = world.BlockAccessor.GetBlockEntityExt<BlockEntityCrate>(pos);
 
         if (becrate == null)
         {
