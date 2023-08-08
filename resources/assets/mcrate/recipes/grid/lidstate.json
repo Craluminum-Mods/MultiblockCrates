@@ -1,26 +1,26 @@
 [
-  {
-    "name": "Crate (opened to closed)",
-    "ingredientPattern": "C",
-    "ingredients": {
-      "C": { "type": "block", "code": "crate*-east", "attributes": { "lidState": "opened" }, "name": "size" }
+    {
+        "name": "Crate (opened to closed)",
+        "ingredientPattern": "C",
+        "ingredients": {
+            "C": { "type": "block", "code": "crate*-east", "attributes": { "lidState": "opened" }, "name": "size" }
+        },
+        "shapeless": true,
+        "copyAttributesFrom": "C",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
     },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "width": 1,
-    "height": 1,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "closed" } }
-  },
-  {
-    "name": "Crate (closed to opened)",
-    "ingredientPattern": "C",
-    "ingredients": {
-      "C": { "type": "block", "code": "crate*-east", "attributes": { "lidState": "closed" }, "name": "size" }
-    },
-    "shapeless": true,
-    "copyAttributesFrom": "C",
-    "width": 1,
-    "height": 1,
-    "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "opened" } }
-  }
+    {
+        "name": "Crate (closed to opened)",
+        "ingredientPattern": "C",
+        "ingredients": {
+            "C": { "type": "block", "code": "crate*-east", "attributes": { "lidState": "closed" }, "name": "size" }
+        },
+        "shapeless": true,
+        "copyAttributesFrom": "C",
+        "width": 1,
+        "height": 1,
+        "output": { "type": "block", "code": "crate{size}-east", "attributes": { "lidState": "opened" } }
+    }
 ]

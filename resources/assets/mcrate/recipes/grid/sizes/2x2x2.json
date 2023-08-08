@@ -1,13 +1,13 @@
 {
-  "name": "crate2x2x2",
-  "ingredientPattern": "T_,CC,CC",
-  "ingredients": {
-    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
-    "C": { "type": "block", "code": "game:crate", "quantity": 2 }
-  },
-  "copyAttributesFrom": "C",
-  "recipeGroup": 2,
-  "width": 2,
-  "height": 3,
-  "output": { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed" } }
+    "name": "crate2x2x2",
+    "ingredientPattern": "T_,CC,CC",
+    "ingredients": {
+        "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+        "C": { "type": "block", "code": "game:crate", "quantity": 2 }
+    },
+    "copyAttributesFrom": "C",
+    "recipeGroup": 2,
+    "width": 2,
+    "height": 3,
+    "output": { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed" } }
 }
