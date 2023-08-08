@@ -30,7 +30,7 @@ public class JsonPatches : ModSystem
 
         foreach (string size in Sizes)
         {
-            AssetLocation crate = new($"mcrate:blocktypes/crate{size}.json");
+            AssetLocation file = new($"mcrate:blocktypes/crate{size}.json");
 
             int TickCount1 = Environment.TickCount;
 
@@ -43,19 +43,19 @@ public class JsonPatches : ModSystem
                         Op = EnumJsonPatchOp.Add,
                         Value = new { @base = $"game:block/wood/crate/{type}-inside" }.Parse(),
                         Path = $"/textures/wood-{type}-inside",
-                        File = crate
+                        File = file
                     });
                     patches.Add(new JsonPatch()
                     {
                         Op = EnumJsonPatchOp.Add,
                         Value = new { @base = $"game:block/wood/crate/{type}-sides" }.Parse(),
                         Path = $"/textures/wood-{type}-sides",
-                        File = crate
+                        File = file
                     });
                 }
                 catch (Exception e)
                 {
-                    api.Logger.Error(Namespace + ": Failed to patch file {0}: {1}", crate, e);
+                    api.Logger.Error(Namespace + ": Failed to patch file {0}: {1}", file, e);
                 }
             }
 
@@ -68,19 +68,19 @@ public class JsonPatches : ModSystem
                         Op = EnumJsonPatchOp.Add,
                         Value = new { @base = $"game:block/wood/planks/{type}1", rotation = 90 }.Parse(),
                         Path = $"/textures/wood-{type}-inside",
-                        File = crate
+                        File = file
                     });
                     patches.Add(new JsonPatch()
                     {
                         Op = EnumJsonPatchOp.Add,
                         Value = new { @base = $"game:block/wood/planks/{type}1", rotation = 90 }.Parse(),
                         Path = $"/textures/wood-{type}-sides",
-                        File = crate
+                        File = file
                     });
                 }
                 catch (Exception e)
                 {
-                    api.Logger.Error(Namespace + ": Failed to patch file {0}: {1}", crate, e);
+                    api.Logger.Error(Namespace + ": Failed to patch file {0}: {1}", file, e);
                 }
             }
 
