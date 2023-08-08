@@ -8,9 +8,9 @@ public static class Extensions
 {
     public static T GetBlockEntityExt<T>(this IBlockAccessor blockAccessor, BlockPos pos) where T : BlockEntity
     {
-        if (blockAccessor.GetBlockEntity<T>(pos) is T becrate)
+        if (blockAccessor.GetBlockEntity<T>(pos) is T blockEntity)
         {
-            return becrate;
+            return blockEntity;
         }
 
         if (blockAccessor.GetBlock(pos) is BlockMultiblock multiblock)
