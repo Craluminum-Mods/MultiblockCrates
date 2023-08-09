@@ -9,7 +9,7 @@ namespace MultiblockCrates;
 
 public class JsonPatches : ModSystem
 {
-    public override double ExecuteOrder() => 0.2;
+    public override double ExecuteOrder() => 0.05;
 
     public override void AssetsLoaded(ICoreAPI api)
     {
