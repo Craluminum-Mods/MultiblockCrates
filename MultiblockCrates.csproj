@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
+		<TargetFramework>net7</TargetFramework>
 		<LangVersion>11</LangVersion>
-		<TargetFramework>net461</TargetFramework>
 	</PropertyGroup>
 	
 	<ItemGroup>
@@ -29,37 +29,25 @@
             <HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
             <Private>false</Private>
         </Reference>
-        <!-- Vintage Story Included Libraries -->
-        <Reference Include="0Harmony">
-            <HintPath>$(VINTAGE_STORY)\Lib\0Harmony.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="cairo-sharp">
-            <HintPath>$(VINTAGE_STORY)\Lib\cairo-sharp.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
         <Reference Include="Newtonsoft.Json">
             <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="protobuf-net">
-            <HintPath>$(VINTAGE_STORY)\Lib\protobuf-net.dll</HintPath>
             <Private>false</Private>
         </Reference>
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)' == 'ReleaseToMods'">
+		<None Include="*ICENSE" CopyToOutputDirectory="PreserveNewest" />
 		<None Include="resources/**">
 			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
-		<None Include="*ICENSE">
-			<Link>%(RecursiveDir)%(Filename)%(Extension)</Link>
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
+        <Reference Include="Newtonsoft.Json">
+            <HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
+            <Private>false</Private>
+        </Reference>
 	</ItemGroup>
 	
 	<Target Name="Package" AfterTargets="PostBuildEvent" Condition="'$(Configuration)' == 'ReleaseToMods'">
-		<ZipDirectory DestinationFile="$(VINTAGE_STORY_DATA)/Mods/$(TargetName)-v1.1.1.zip" SourceDirectory="$(TargetDir)" Overwrite="true" />
+		<ZipDirectory DestinationFile="$(VINTAGE_STORY_DATA)/Mods/$(TargetName)-v1.2.0.zip" SourceDirectory="$(TargetDir)" Overwrite="true" />
 	</Target>
 </Project>
