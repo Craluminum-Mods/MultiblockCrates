@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Lunghezza</font> x <font color=\"#baffc9\">Larghezza</font> x <font color=\"#ffffba\">Altezza</font>",
-
-    "RemoveOrAddLabel.Name": "Rimuovere o aggiungere la pergamena sulla cassa",
-
-    "Error.NoCrate": "Nessuna cassa in vista",
-    "Error.HasDiffLabel": "La cassa ha una pergamena diversa",
-    "Error.NoLabel": "Nessuna pergamena in mano o sulla cassa",
-
-    "Success.LabelRemoved": "Rimossa la pergamena dalla cassa",
-    "Success.LabelAdded": "Aggiunta pergamena alla cassa"
+    "blockdesc-*": "<font color=\"#bae1ff\">Lunghezza</font> x <font color=\"#baffc9\">Larghezza</font> x <font color=\"#ffffba\">Altezza</font>"
 }

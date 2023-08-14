@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Longueur</font> x <font color=\"#baffc9\">Largeur</font> x <font color=\"#ffffba\">Hauteur</font>",
-
-    "RemoveOrAddLabel.Name": "Retirer ou ajouter du parchemin sur la caisse",
-
-    "Error.NoCrate": "Pas de caisse en vue",
-    "Error.HasDiffLabel": "La caisse a un parchemin différent",
-    "Error.NoLabel": "Pas de parchemin dans la main ou sur la caisse",
-
-    "Success.LabelRemoved": "Retiré le parchemin de la caisse",
-    "Success.LabelAdded": "Added parchment to crate"
+    "blockdesc-*": "<font color=\"#bae1ff\">Longueur</font> x <font color=\"#baffc9\">Largeur</font> x <font color=\"#ffffba\">Hauteur</font>"
 }

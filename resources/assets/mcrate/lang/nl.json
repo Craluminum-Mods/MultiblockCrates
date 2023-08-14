@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Lengte</font> x <font color=\"#baffc9\">Breedte</font> x <font color=\"#ffffba\">Hoogte</font>",
-
-    "RemoveOrAddLabel.Name": "Verwijder of voeg perkament toe aan krat",
-
-    "Error.NoCrate": "Geen krat in zicht",
-    "Error.HasDiffLabel": "Krat heeft ander perkament",
-    "Error.NoLabel": "Geen perkament in hand of op krat",
-
-    "Success.LabelRemoved": "Perkament uit krat verwijderd",
-    "Success.LabelAdded": "Perkament toegevoegd aan krat"
+    "blockdesc-*": "<font color=\"#bae1ff\">Lengte</font> x <font color=\"#baffc9\">Breedte</font> x <font color=\"#ffffba\">Hoogte</font>"
 }

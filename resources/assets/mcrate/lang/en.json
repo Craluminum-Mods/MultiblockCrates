@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Length</font> x <font color=\"#baffc9\">Width</font> x <font color=\"#ffffba\">Height</font>",
-
-    "RemoveOrAddLabel.Name": "Remove or add parchment on crate",
-
-    "Error.NoCrate": "No crate in sight",
-    "Error.HasDiffLabel": "Crate has different parchment",
-    "Error.NoLabel": "No parchment in hand or on crate",
-
-    "Success.LabelRemoved": "Removed parchment from crate",
-    "Success.LabelAdded": "Added parchment to crate"
+    "blockdesc-*": "<font color=\"#bae1ff\">Length</font> x <font color=\"#baffc9\">Width</font> x <font color=\"#ffffba\">Height</font>"
 }

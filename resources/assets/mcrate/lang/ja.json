@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">長さ</font> x <font color=\"#baffc9\">幅</font> x <font color=\"#ffffba\">高さ</font>",
-
-    "RemoveOrAddLabel.Name": "木箱のパーチメントを取り除くか追加する",
-
-    "Error.NoCrate": "クレートは見当たらない",
-    "Error.HasDiffLabel": "木箱の羊皮紙が違う",
-    "Error.NoLabel": "羊皮紙は手にも木箱にもない",
-
-    "Success.LabelRemoved": "木箱から羊皮紙を取り出す",
-    "Success.LabelAdded": "木箱に羊皮紙を追加"
+    "blockdesc-*": "<font color=\"#bae1ff\">長さ</font> x <font color=\"#baffc9\">幅</font> x <font color=\"#ffffba\">高さ</font>"
 }

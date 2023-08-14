@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Dĺžka</font> x <font color=\"#baffc9\">Šírka</font> x <font color=\"#ffffba\">Výška</font>",
-
-    "RemoveOrAddLabel.Name": "Odstrániť alebo pridať pergamen na debnu",
-
-    "Error.NoCrate": "Žiadna debna v dohľade",
-    "Error.HasDiffLabel": "Debna má iný pergamen",
-    "Error.NoLabel": "Žiadny pergamen v ruke ani na debne",
-
-    "Success.LabelRemoved": "Odstránený pergamen z debny",
-    "Success.LabelAdded": "Pridaný pergamen do debny"
+    "blockdesc-*": "<font color=\"#bae1ff\">Dĺžka</font> x <font color=\"#baffc9\">Šírka</font> x <font color=\"#ffffba\">Výška</font>"
 }

@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Comprimento</font> x <font color=\"#baffc9\">Largura</font> x <font color=\"#ffffba\">Altura</font>",
-
-    "RemoveOrAddLabel.Name": "Remover ou adicionar pergaminho no caixote",
-
-    "Error.NoCrate": "Não há caixote à vista",
-    "Error.HasDiffLabel": "O caixote tem pergaminho diferente",
-    "Error.NoLabel": "Nenhum pergaminho na mão ou no caixote",
-
-    "Sucesso.EtiquetaRemovido": "Removido o pergaminho do caixote",
-    "Success.LabelAdded": "Adicionado pergaminho ao caixote"
+    "blockdesc-*": "<font color=\"#bae1ff\">Comprimento</font> x <font color=\"#baffc9\">Largura</font> x <font color=\"#ffffba\">Altura</font>"
 }

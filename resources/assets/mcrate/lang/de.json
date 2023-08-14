@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Länge</font> x <font color=\"#baffc9\">Breite</font> x <font color=\"#ffffba\">Höhe</font>",
-
-    "RemoveOrAddLabel.Name": "Pergament auf Kiste entfernen oder hinzufügen",
-
-    "Error.NoCrate": "Keine Kiste in Sicht",
-    "Error.HasDiffLabel": "Kiste hat anderes Pergament",
-    "Error.NoLabel": "Kein Pergament in der Hand oder auf der Kiste",
-
-    "Success.LabelRemoved": "Pergament aus der Kiste entfernt",
-    "Success.LabelAdded": "Pergament zur Kiste hinzugefügt"
+    "blockdesc-*": "<font color=\"#bae1ff\">Länge</font> x <font color=\"#baffc9\">Breite</font> x <font color=\"#ffffba\">Höhe</font>"
 }

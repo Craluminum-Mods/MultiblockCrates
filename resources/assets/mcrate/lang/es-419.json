@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Largo</font> x <font color=\"#baffc9\">Ancho</font> x <font color=\"#ffffba\">Alto</font>",
-
-    "RemoveOrAddLabel.Name": "Quitar o añadir pergamino en la caja",
-
-    "Error.NoCrate": "Ninguna caja a la vista",
-    "Error.HasDiffLabel": "Cajón tiene pergamino diferente",
-    "Error.NoLabel": "No hay pergamino en la mano ni en la caja",
-
-    "Success.LabelRemoved": "Pergamino retirado del cajón",
-    "Success.LabelAdded": "Añadido pergamino a la caja"
+    "blockdesc-*": "<font color=\"#bae1ff\">Largo</font> x <font color=\"#baffc9\">Ancho</font> x <font color=\"#ffffba\">Alto</font>"
 }

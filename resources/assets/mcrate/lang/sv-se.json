@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Längd</font> x <font color=\"#baffc9\">Bredd</font> x <font color=\"#ffffba\">Höjd</font>",
-
-    "RemoveOrAddLabel.Name": "Ta bort eller lägg till pergament på lådan",
-
-    "Error.NoCrate": "Ingen låda i sikte",
-    "Error.HasDiffLabel": "Lådan har olika pergament",
-    "Error.NoLabel": "Inget pergament i handen eller på lådan",
-
-    "Success.LabelRemoved": "Tog bort pergamentet från lådan",
-    "Success.LabelAdded": "Lade till pergament i lådan"
+    "blockdesc-*": "<font color=\"#bae1ff\">Längd</font> x <font color=\"#baffc9\">Bredd</font> x <font color=\"#ffffba\">Höjd</font>"
 }

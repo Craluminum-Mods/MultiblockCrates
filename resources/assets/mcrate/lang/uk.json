@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Довжина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Висота</font>",
-
-    "RemoveOrAddLabel.Name": "Зняти або повісити пергамент на ящик",
-
-    "Error.NoCrate": "Немає ящику у полі зору",
-    "Error.HasDiffLabel": "Ящик має інший пергамент",
-    "Error.NoLabel": "У руці чи на ящику немає пергаменту",
-
-    "Success.LabelRemoved": "Пергамент знятий з ящика",
-    "Success.LabelAdded": "Пергамент додано на ящик"
+    "blockdesc-*": "<font color=\"#bae1ff\">Довжина</font> x <font color=\"#baffc9\">Ширина</font> x <font color=\"#ffffba\">Висота</font>"
 }

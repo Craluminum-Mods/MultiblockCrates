@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Długość</font> x <font color=\"#baffc9\">Szerokość</font> x <font color=\"#ffffba\">Wysokość</font>",
-
-    "RemoveOrAddLabel.Name": "Usuń lub dodaj pergamin na skrzyni",
-
-    "Error.NoCrate": "Brak skrzyni w zasięgu wzroku",
-    "Error.HasDiffLabel": "Skrzynia ma inny pergamin",
-    "Error.NoLabel": "Brak pergaminu w ręku lub na skrzyni",
-
-    "Success.LabelRemoved": "Usunięto pergamin ze skrzyni",
-    "Success.LabelAdded": "Dodano pergamin do skrzyni"
+    "blockdesc-*": "<font color=\"#bae1ff\">Długość</font> x <font color=\"#baffc9\">Szerokość</font> x <font color=\"#ffffba\">Wysokość</font>"
 }

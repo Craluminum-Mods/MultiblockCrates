@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Lungime</font> x <font color=\"#baffc9\">Lățime</font> x <font color=\"#ffffba\">Înălțime</font>",
-
-    "RemoveOrAddLabel.Name": "Îndepărtați sau adăugați pergament pe ladă",
-
-    "Error.NoCrate": "Nici o ladă la vedere",
-    "Error.HasDiffLabel": "Lada are un pergament diferit",
-    "Error.NoLabel": "Nici un pergament în mână sau pe ladă",
-
-    "Success.LabelRemoved": "Eliminat pergament din ladă",
-    "Success.LabelAdded": "Adăugat pergament la ladă"
+    "blockdesc-*": "<font color=\"#bae1ff\">Lungime</font> x <font color=\"#baffc9\">Lățime</font> x <font color=\"#ffffba\">Înălțime</font>"
 }

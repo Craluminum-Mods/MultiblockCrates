@@ -1,12 +1,3 @@
 {
-    "blockdesc-*": "<font color=\"#bae1ff\">Longo</font> x <font color=\"#baffc9\">Larĝo</font> x <font color=\"#ffffba\">Alto</font>",
-
-    "RemoveOrAddLabel.Name": "Forigi aŭ aldoni pergamenon sur keston",
-
-    "Error.NoCrate": "Neniu kesto en vido",
-    "Error.HasDiffLabel": "Kesto havas malsaman pergamenon",
-    "Error.NoLabel": "Neniu pergameno en la mano aŭ sur kesto",
-
-    "Success.LabelRemoved": "Forigita pergameno el kesto",
-    "Success.LabelAdded": "Aldonita pergameno al kesto"
+    "blockdesc-*": "<font color=\"#bae1ff\">Longo</font> x <font color=\"#baffc9\">Larĝo</font> x <font color=\"#ffffba\">Alto</font>"
 }
