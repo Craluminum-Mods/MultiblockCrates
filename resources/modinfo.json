@@ -5,8 +5,8 @@
     "name": "Multiblock Crates",
     "description": "Crates of different sizes, maximum 3x3x3.",
     "authors": ["Craluminum2413"],
-    "version": "1.2.0",
+    "version": "1.2.1",
     "dependencies": {
-        "game": "1.18.8"
+        "game": "1.19.0"
     }
 }

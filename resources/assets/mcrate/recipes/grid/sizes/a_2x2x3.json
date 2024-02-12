@@ -1,5 +1,6 @@
 [
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x2x3 using crate2x1",
         "ingredientPattern": "CCT,CC_,CC_",
         "ingredients": {
@@ -13,6 +14,7 @@
         "output": { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x2x3 using crate3x1",
         "ingredientPattern": "_T,CC,CC",
         "ingredients": {
@@ -26,6 +28,7 @@
         "output": { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x2x3 using crate1x2",
         "ingredientPattern": "CCT,CC_,CC_",
         "ingredients": {
@@ -39,6 +42,7 @@
         "output": { "type": "block", "code": "crate2x2x3-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x2x3 using crate1x3",
         "ingredientPattern": "_T,CC,CC",
         "ingredients": {

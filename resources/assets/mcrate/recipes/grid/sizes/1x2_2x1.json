@@ -1,5 +1,6 @@
 [
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x1",
         "ingredientPattern": "TC",
         "ingredients": {
@@ -26,6 +27,7 @@
         "output": { "type": "block", "code": "crate2x1-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x1 to crate1x2",
         "ingredientPattern": "T_,_C",
         "ingredients": {
@@ -39,6 +41,7 @@
         "output": { "type": "block", "code": "crate1x2-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate1x2 to crate2x1",
         "ingredientPattern": "T_,_C",
         "ingredients": {

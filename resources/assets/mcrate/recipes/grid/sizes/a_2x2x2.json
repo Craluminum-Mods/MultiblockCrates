@@ -1,5 +1,6 @@
 [
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x2x2 using crate2x1",
         "ingredientPattern": "T_,CC,CC",
         "ingredients": {
@@ -13,6 +14,7 @@
         "output": { "type": "block", "code": "crate2x2x2-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate2x2x2 using crate1x2",
         "ingredientPattern": "T_,CC,CC",
         "ingredients": {

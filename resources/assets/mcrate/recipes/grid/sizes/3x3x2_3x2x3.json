@@ -13,6 +13,7 @@
         "output": { "type": "block", "code": "crate3x3x2-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate3x3x2 to crate3x2x3",
         "ingredientPattern": "T_,_C",
         "ingredients": {
@@ -26,6 +27,7 @@
         "output": { "type": "block", "code": "crate3x2x3-east", "attributes": { "lidState": "closed" } }
     },
     {
+        "ShowInCreatedBy": false,
         "name": "crate3x2x3 to crate3x3x2",
         "ingredientPattern": "T_,_C",
         "ingredients": {
